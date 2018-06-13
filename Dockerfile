@@ -1,5 +1,5 @@
 # precompiled pandoc required glibc
-FROM frolvlad/alpine-glibc:alpine-3.4
+FROM evagelosvar/docker-alpine-python-glibc
 MAINTAINER  Andreas Linz <klingt.net@gmail.com>
 
 # enable edge repos
