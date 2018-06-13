@@ -3,7 +3,7 @@ FROM evagelosvar/docker-alpine-python-glibc
 MAINTAINER  Andreas Linz <klingt.net@gmail.com>
 
 # enable edge repos
-RUN sed -i -e 's/v3\.4/edge/g' /etc/apk/repositories
+RUN sed -i -e 's/v3\.7/edge/g' /etc/apk/repositories
 # enable testing
 RUN echo 'http://dl-cdn.alpinelinux.org/alpine/edge/testing' >> /etc/apk/repositories
 
